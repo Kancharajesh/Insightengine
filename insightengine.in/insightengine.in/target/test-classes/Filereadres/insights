@@ -1,0 +1,157 @@
+InsightEngine=Insight Engine
+Pricing=Pricing
+Resources=Resources
+SuperJApp=Super J App
+GetStarted=/html/body/main/nav[1]/div[2]/div[2]/ul/li[2]
+Login=/html/body/main/nav[1]/div[2]/div[2]/ul/li[1]
+
+//LOGIN.
+signup=Sign Up
+
+Getstarteds=(//button[@type='button'])[1]
+Getstartedclose=img[alt='close']
+
+Howitworks=(//button[@type='button'])[2]
+Howitworkstext=The traditional approach to research is old and outdated.
+
+//solutions,
+solutionstext=What brings you here today?
+Solution1=//*[@id="oursolution"]/div[2]/div[1]/div/div[1]
+Solution2=//*[@id="oursolution"]/div[2]/div[1]/div/div[2]
+Solution3=//*[@id="oursolution"]/div[2]/div[1]/div/div[3]
+Solution4=//*[@id="oursolution"]/div[2]/div[1]/div/div[4]
+Solution5=//*[@id="oursolution"]/div[2]/div[1]/div/div[5]
+
+//Testimonials
+Testimonials=/html/body/main/div[3]/div[2]/div/div[1]/div[2]
+
+Testmon1=//*[@id="testimonials"]/div[2]/div/div[1]/div[1]
+Testmon2=//*[@id="testimonials"]/div[2]/div/div[1]/div[2]
+Testmon3=//*[@id="testimonials"]/div[2]/div/div[1]/div[3]
+Testmon4=//*[@id="testimonials"]/div[2]/div/div[1]/div[4]
+
+
+	//Get Started(Create an account).
+Name=(//input[@type='text'])[1]
+Designation=(//input[@type='text'])[2]
+Company=(//input[@type='text'])[3]
+Email=input[name='email']
+ContactNumber=input[type='tel']
+Submit=(//button[@type='submit'])[1]
+MainTitle=//*[@id="consumerresearchisfinallysimple"]/div[2]/div/div[1]/h1
+Title=Hello! Welcome to the Insight Engine
+
+	// SIGN IN
+SignIn=Sign In
+SignInMobileNumber=input[name='identifier']
+SignInSendOTP=(//button[@type='submit'])[1]
+SignInEnterOTP=input[type='text']
+SigninVerifyOTP=(//button[@type='submit'])[1]
+
+
+
+	// VALID & INVALID Data
+validName=Rajesh.
+ValidCompanyName=JM
+ValidDesinatio=QA
+ValidEmail=test@gm.io
+ValidMobileNumber=9876432333
+
+INValidName=qwerty.
+InvalidCompanyName=!@#123
+InvalidDesignation=123332!@#
+InvalidEmail=wqertyiiokj 
+InvalidNumber=9878987
+
+
+
+	//INSIGHT ENGINE Email Validation.
+EmailtextFileds=input[type='email']
+EmailSubmit=button[type='submit']
+EmailErrorMSG=Please enter a valid email address.
+EmaiSucessMSG=Thanks for sharing! Our team will reach out to you shortly.
+emailmessage=/html/body/main/section[3]/div/h6
+emailerrormessage=/html/body/main/section[3]/div/h6
+Resourcesemailsucessmessage01=/html/body/main/div[1]/div[5]/section/div/h6
+resourcesemailerrormsg=/html/body/main/div[1]/div[5]/section/div/h6
+
+Getstarted=(//button[@type='button'])[1]
+HowitWorks=(//button[@type='button'])[2]
+
+//Pricing screen.
+Emailmsgsucess=/html/body/main/div[1]/section/div/h6
+emailmsgerror=/html/body/main/div[1]/section/div/h6
+pricingstarted01=/html/body/main/div[1]/div/div/div[1]/button
+pricingstarted02=/html/body/main/div[1]/div/div/div[2]/button
+pricingstarted03=/html/body/main/div[1]/div/div/div[3]/button
+
+
+	//Resources PAGE.
+	
+DownloadReport=/html/body/main/div[1]/div[1]/div/button		
+
+// Download the Report.	
+ReportName=input[name='name']
+ReportEmail=input[name='email']
+ReoprtDesignation=input[name='designation']
+ReportCompany=input[name='company']
+ReportDownloadReport=(//button[@type='submit'])[1]
+DownloadReportButton=Download Report
+ReportDownloadReport1=/html/body/main/div[1]/div[2]/div/div/div/div[2]/form/div[2]
+
+	// Validation error messages.
+NameValidtion=Contact name is required	
+NameValidtion1=/html/body/main/div[1]/div[2]/div/div/div/div[2]/form/div[1]/div[1]/p
+EmailValidtion=Email is required
+EmailValidtion1=/html/body/main/div[1]/div[2]/div/div/div/div[2]/form/div[1]/div[2]/p
+DesignationValidation=Designation is required
+DesignationValidation1=/html/body/main/div[1]/div[2]/div/div/div/div[2]/form/div[1]/div[3]/p
+CompanynameValidation=Company name is required
+CompanynameValidation1=/html/body/main/div[1]/div[2]/div/div/div/div[2]/form/div[1]/div[4]/p
+
+
+// REPORT & DATA.
+ReportNameText=Rajesh
+ReportEmailtext=rajesh@gm.com
+ReoprtDesignationtext=QA
+ReportCompanytext=JM
+	
+
+	//Resources main Op	tions.
+CaseStudy=Case Study
+Casestudy1=/html/body/main/div[1]/div[3]/div/button[1]
+InsightReport=Insight Report
+InsightReport1=/html/body/main/div[1]/div[3]/div/button[2]
+Bitesizesnippets=Bite size snippets
+Bitesizesnippets1=/html/body/main/div[1]/div[3]/div/button[3]
+Blogs=Blogs
+Blogs1=/html/body/main/div[1]/div[3]/div/button[4]
+
+
+	//CaseStudy.
+CaseStudyFood&beverages=/html/body/main/div[1]/div[4]/div/div[1]
+CaseStdyFMCG=/html/body/main/div[1]/div[4]/div/div[2]
+BlogsBack=img[alt='Back']
+
+   //InsightReport
+InsightReport&DownloadReport=/html/body/main/div[1]/div[4]/div/div[1]/div[3]
+
+   //Blogs
+Allblogs=/html/body/main/div[1]/div[4]/div
+Blogs&consumer=/html/body/main/div[1]/div[4]/div/div
+Blogspart1=/html/body/main/div[1]/div[4]/div/div[1]
+Blogspart2=/html/body/main/div[1]/div[4]/div/div[2]
+Blogspart3=/html/body/main/div[1]/div[4]/div/div[3]
+
+
+
+
+
+  //Socail media links.
+instagram=/html/body/main/div[4]/div/div[1]/div[2]/div/ul/li[1]/a/i	
+twitter=/html/body/main/div[4]/div/div[1]/div[2]/div/ul/li[2]/a
+linkdin=/html/body/main/div[4]/div/div[1]/div[2]/div/ul/li[3]/a
+
+PrivacyPolicy=/html/body/main/div/div/div[2]/div[2]/a[1]
+Terms&Conditions=/html/body/main/div/div/div[2]/div[2]/a[2]
+Disclaimer=/html/body/main/div/div/div[2]/div[2]/a[2]
